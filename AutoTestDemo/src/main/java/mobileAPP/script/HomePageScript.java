@@ -27,7 +27,7 @@ public class HomePageScript extends BaseMethod {
     @Test
     public void check_LogIn_Function() {
         driver.findElement(homePageElement.button_SignIn).click();
-        commonMethod.login("jonathan.j.shen@newegg.com", "Aa123456");
+        commonMethod.login("", "");
     }
 
     @Test
